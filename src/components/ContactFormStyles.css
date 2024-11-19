@@ -1,0 +1,38 @@
+.contact-container {
+    margin: 4rem auto;
+    padding: 2rem 1rem;  
+    max-width: 800px; 
+    text-align: center;
+    box-sizing: border-box; 
+  }
+  
+  .contact-container h1 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contact-container p {
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .contact-container a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-container a:hover {
+    text-decoration: underline;
+  }
+
+  
+  @media screen and (max-width: 850px) {
+    .contact-container {
+      margin: 2rem 1rem;
+    }
+  }
+  
